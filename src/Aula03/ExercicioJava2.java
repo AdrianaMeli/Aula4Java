@@ -15,11 +15,8 @@ public class ExercicioJava2 {
             valor[i] = sc.nextInt();
             if (valor[i] % 2 == 0 ) {
                 contPar++;
-            }
-        }
-        for (int j = 0; j < valor.length; j++) {
-            if (valor[j] % 2 == 1) {
-                contImpar++;
+            }else {
+                contImpar ++;
             }
         }
         System.out.println("Total par = " + contPar);
