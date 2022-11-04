@@ -1,5 +1,6 @@
-package Exercicio2.CadastroFuncionarios;
-import Exercicio2.model.Funcionarios;
+package Aula06.src.Exercicio2.CadastroFuncionarios;
+
+import Aula06.src.Exercicio2.model.Funcionarios;
 
 public class TestaFuncionarios {
     public static void main(String[] args) {

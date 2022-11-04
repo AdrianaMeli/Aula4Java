@@ -1,4 +1,4 @@
-package Exercicio2.model;
+package Aula06.src.Exercicio2.model;
 
 public class Funcionarios {
     private int id;
