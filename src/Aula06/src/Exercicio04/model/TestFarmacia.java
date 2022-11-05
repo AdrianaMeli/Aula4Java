@@ -1,16 +1,26 @@
-package Exercicio04.model;
+package Aula06.src.Exercicio04.model;
 
-import Exercicio04.Farmacia.Farmacia;
+import Aula06.src.Exercicio04.Medicamentos.CadastroMedicamentos;
 
 public class TestFarmacia {
-    public static void main(String[] args) {
-        Farmacia farmacia01 = new Farmacia(1,"Venlafaxina","Vermelha","1 ao dia",25);
-        Farmacia farmacia02 = new Farmacia(2,"Rivotril","Preta","1 a noite",30);
 
-        farmacia01.visualizar();
-        farmacia02.visualizar();
+    public static void main(String[] args) {
+
+        CadastroMedicamentos venlafaxina = new CadastroMedicamentos(
+                2,
+                "Venalfaxina",
+                15
+        );    CadastroMedicamentos tylenol = new CadastroMedicamentos(
+                3,
+                "Tylenol",
+                10
+        );
+        venlafaxina.visualizar();
+        tylenol.vizualizar();
+
+
+        }
+
 
     }
-}
-
 

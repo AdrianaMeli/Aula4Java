@@ -1,4 +1,4 @@
-package Exercicio04.Farmacia;
+package Aula06.src.Exercicio04.Farmacia;
 
 public class Farmacia {
     private int cod;
