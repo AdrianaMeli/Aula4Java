@@ -1,13 +1,17 @@
 package Aula06.src.Exercicio04.Farmacia;
 
-public class Farmacia {
+public class Farmacia{
     private int cod;
     private String nomeclatura;
     private String tarja;
     private String posologia;
     private float unidades;
 
+
+
+
     public Farmacia(int cod, String nomeclatura, String tarja, String posologia, float unidades) {
+        super();
         this.cod = cod;
         this.nomeclatura = nomeclatura;
         this.tarja = tarja;
@@ -15,23 +19,23 @@ public class Farmacia {
         this.unidades = unidades;
     }
 
-    public int cod() {
+    public int getCod() {
         return cod;
     }
 
-    public String nomeclatura() {
+    public String getNomeclatura() {
         return nomeclatura;
     }
 
-    public String tarja() {
+    public String getTarja() {
         return tarja;
     }
 
-    public String posologia() {
+    public String getPosologia() {
         return posologia;
     }
 
-    public float unidades() {
+    public float getUnidades() {
         return unidades;
     }
 
@@ -54,6 +58,7 @@ public class Farmacia {
     public void setUnidades(float unidades) {
         this.unidades = unidades;
     }
+
     public void visualizar(){
         System.out.println("\n\n*********************************************************************");
         System.out.println("Medicamentos:");
